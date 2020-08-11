@@ -9,7 +9,7 @@ from button import Button
 from scoreboard import Scoreboard
 
 
-def run_game():
+if __name__ == '__main__':
     # Initialise game and create screen object
     pygame.init()
     ai_settings = Settings()
@@ -48,6 +48,3 @@ def run_game():
         # Update screen
         gf.update_screen(ai_settings, stats, sb, screen, ship, bullets, aliens,
                          play_button)
-
-
-run_game()

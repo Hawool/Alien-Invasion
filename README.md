@@ -10,4 +10,4 @@ Prepare to use:
 Usage:
 + Just run ShootingShip.py
 + Press "Play"
-+ Space for shooting, arrows to control.
++ Space for shooting, arrows to control, "q" for exit.
